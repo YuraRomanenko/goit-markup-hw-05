@@ -56,8 +56,22 @@
             <div class="hero-container"> 
                 
                         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1> 
-                    
-                        <button type="button" class="prise-btn hero-button">Замовити послугу</button>  
+                    <body>
+                        <button data-modal-open type="button" class="prise-btn hero-button">Замовити послугу</button>
+
+                        <div class="backdrop is-hidden"data-modal>
+                            <div class="modal">
+                                <p>
+                                    Ку-ку
+                                </p>
+                                <button data-modal-close>ЗАкрыть</button>
+
+                            </div>
+                        </div>
+                        <script src="./js/modal.js"></script>
+                        
+                    </body>
+                     
             </div>
        </section>
             
